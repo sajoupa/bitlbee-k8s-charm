@@ -1,0 +1,9 @@
+name: bitlbee
+summary: Bitlbee charm using the operator framework, to be deployed on kubernetes.
+description: A charm which deploys Bitlbee on kubernetes.
+series:
+  - kubernetes
+resources:
+  bitlbee_image:
+    type: oci-image
+    description: Image used for the bitlbee pod.
